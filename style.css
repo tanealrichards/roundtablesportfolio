@@ -1,0 +1,66 @@
+html { 
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/827066/pexels-photo-827066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size:cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#banner { 
+padding-top:22%;
+font-family:'Skranji', cursive;
+font-size:35px;
+display:flex;
+justify-content:center;
+color:#3330bC;
+}
+h1{
+  background:white;
+}
+
+#heading { 
+  height:100%;
+  font-family:'Montserrat', sans-serif;
+  display:flex;
+  justify-content:space-around;
+  color:#00aaff;
+}
+h1, h2{
+  background:white;
+  padding: 0.1em 0.3em;
+}
+   .navbar {
+     display:flex;
+     justify-content: space-around;
+     background:rgba(255,255,255,0.8);
+     padding: 1em;
+     positon: fixed;
+     top: 0;
+     left:0;
+     width:100%;
+     
+   }
+   .navbar a { 
+     float: left;
+     display: block;
+     font-weight: 700;
+     color: #805;
+     text-aligh: center;
+   }
+   
+   #about-content {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 22%;
+   }
+   
+   img {
+     border-radius: 50%;
+     border: solid 5px #3330ab;
+     max-width: 60%;
+   }
+   
+   .my-description {
+     background: white;
+     margin: 3%;
+     padding: 4%;
+   }
